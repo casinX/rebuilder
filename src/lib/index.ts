@@ -1,2 +1,5 @@
 export * from './expression'
 export * from './characters'
+export * from './pattern'
+export * from './group'
+export * from './or'

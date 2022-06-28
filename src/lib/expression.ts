@@ -1,6 +1,9 @@
 import { Character } from './Character'
+import { GroupNode } from './group'
+import { PatternNode } from './pattern'
+import { compileChildren } from './utils/compileChildren'
 
-type Children = Array<Character>
+type Children = Array<Character | PatternNode | GroupNode>
 
 class RegularExpressionBuilder {
   private shouldUseIndices = false
@@ -84,10 +87,7 @@ class RegularExpressionBuilder {
     if (this.shouldUseUnicode) flags.push('u')
     if (this.shouldUseStickySearch) flags.push('y')
 
-    return new RegExp(
-      this.children.map((child) => child._compile()).join(''),
-      flags.join('')
-    )
+    return new RegExp(compileChildren(this.children), flags.join(''))
   }
 
   constructor(private readonly children: Children) {}
