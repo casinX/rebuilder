@@ -1,11 +1,9 @@
-import * as Re from './lib'
+import * as R from './lib'
 
-const regExp = Re.expression(
-  Re.group(Re.number().repeatsRange(0, 2)),
-  Re.group(
-    Re.or(Re.pattern(':'), Re.pattern('.'), Re.pattern('|'))
-  ).maybeOnce(),
-  Re.group(Re.number().repeatsRange(0, 2))
+const regExp = R.expression(
+  R.group(R.number().repeats(0, 2)),
+  R.group(R.or(R.pattern(':'), R.pattern('.'), R.pattern('|'))).maybeOnce(),
+  R.group(R.number().repeats(0, 2))
 ).build()
 
 console.log(regExp)
