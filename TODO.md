@@ -77,7 +77,7 @@
 
 ### Unit
 
-- [x] Expression class
+- [x] Re.expression
 
 ## Documentation
 
