@@ -4,8 +4,8 @@
 
 ### [Assertions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Assertions)
 
-- [ ] Search from start
-- [ ] Search to end
+- [x] Search from start
+- [x] Search to end
 - [ ] Lookahead match
 - [ ] Negative lookahead
 - [ ] Lookbehind
@@ -61,9 +61,23 @@
 
 ### [Escaping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#escaping)
 
+### [Flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#advanced_searching_with_flags)
+
+- [x] Generate indices for substring matches
+- [x] Global search
+- [x] Case-insensitive search
+- [x] Multi-line search
+- [x] Allows . to match newline characters
+- [x] "unicode"; treat a pattern as a sequence of unicode code points
+- [x] Perform a "sticky" search that matches starting at the current position in the target string
+
 ## Tests
 
 - [ ] Test all features
+
+### Unit
+
+- [x] Expression class
 
 ## Documentation
 
@@ -77,3 +91,17 @@
 ### JSdoc
 
 - [ ] Cover all features according to [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [ ] Add examples
+
+#### Expression
+
+- [ ] Instance
+- [ ] Instance.indices
+- [ ] Instance.global
+- [ ] Instance.caseInsensitive
+- [ ] Instance.multiline
+- [ ] Instance.dotMatchNewLine
+- [ ] Instance.unicode
+- [ ] Instance.sticky
+- [ ] Instance.fromStart
+- [ ] Instance.toEnd
