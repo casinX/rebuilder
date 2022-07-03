@@ -27,8 +27,8 @@
 - [x] Form-feed
 - [x] Backspace
 - [x] Null character
-- [ ] Control character
-- [ ] Code character
+- [x] Control character
+- [x] Code character
 - [ ] Unicode characters
 - [ ] Unicode properties
 
@@ -92,6 +92,8 @@
 - [x] Re.formFeed
 - [x] Re.backspace
 - [x] Re.nullChar
+- [x] Re.control
+- [x] Re.code
 
 ## Documentation
 
