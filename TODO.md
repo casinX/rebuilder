@@ -26,7 +26,7 @@
 - [x] Vertical tab
 - [x] Form-feed
 - [x] Backspace
-- [ ] Null character
+- [x] Null character
 - [ ] Control character
 - [ ] Code character
 - [ ] Unicode characters
@@ -91,6 +91,7 @@
 - [x] Re.newLine
 - [x] Re.formFeed
 - [x] Re.backspace
+- [x] Re.nullChar
 
 ## Documentation
 
