@@ -25,7 +25,7 @@
 - [x] Linefeed
 - [x] Vertical tab
 - [x] Form-feed
-- [ ] Backspace
+- [x] Backspace
 - [ ] Null character
 - [ ] Control character
 - [ ] Code character
@@ -90,6 +90,7 @@
 - [x] Re.caretReturn
 - [x] Re.newLine
 - [x] Re.formFeed
+- [x] Re.backspace
 
 ## Documentation
 
