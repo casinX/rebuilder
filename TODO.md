@@ -18,8 +18,8 @@
 - [x] Not number
 - [x] Alphanumeric
 - [x] Not alphanumeric
-- [ ] Whitespace
-- [ ] Not whitespace
+- [x] Whitespace
+- [x] Not whitespace
 - [ ] Horizontal tab
 - [ ] Caret return
 - [ ] Linefeed
@@ -83,6 +83,8 @@
 - [x] Re.notNumber
 - [x] Re.alphanumeric
 - [x] Re.notAlphanumeric
+- [x] Re.whitespace
+- [x] Re.notWhitespace
 
 ## Documentation
 
