@@ -20,10 +20,10 @@
 - [x] Not alphanumeric
 - [x] Whitespace
 - [x] Not whitespace
-- [ ] Horizontal tab
+- [x] Horizontal tab
 - [ ] Caret return
 - [ ] Linefeed
-- [ ] Vertical tab
+- [x] Vertical tab
 - [ ] Form-feed
 - [ ] Backspace
 - [ ] Null character
@@ -85,6 +85,8 @@
 - [x] Re.notAlphanumeric
 - [x] Re.whitespace
 - [x] Re.notWhitespace
+- [x] Re.horizontalTab
+- [x] Re.verticalTab
 
 ## Documentation
 
