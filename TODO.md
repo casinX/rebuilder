@@ -16,8 +16,8 @@
 - [x] Any
 - [x] Number
 - [x] Not number
-- [ ] Alphanumeric
-- [ ] Not alphanumeric
+- [x] Alphanumeric
+- [x] Not alphanumeric
 - [ ] Whitespace
 - [ ] Not whitespace
 - [ ] Horizontal tab
@@ -81,6 +81,8 @@
 - [x] Re.any
 - [x] Re.number
 - [x] Re.notNumber
+- [x] Re.alphanumeric
+- [x] Re.notAlphanumeric
 
 ## Documentation
 

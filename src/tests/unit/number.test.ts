@@ -1,7 +1,7 @@
 import * as Re from '../../lib'
 
 describe('Re.number', () => {
-  it('Math number char', () => {
+  it('Match number char', () => {
     const regExp = Re.expression(Re.number()).build()
     expect(regExp.toString()).toBe('/\\d/')
   })

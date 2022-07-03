@@ -1,7 +1,7 @@
 import * as Re from '../../lib'
 
 describe('Re.notNumber', () => {
-  it('Math not number char', () => {
+  it('Match not number char', () => {
     const regExp = Re.expression(Re.notNumber()).build()
     expect(regExp.toString()).toBe('/\\D/')
   })
