@@ -14,8 +14,8 @@
 ### [Character classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes)
 
 - [x] Any
-- [ ] Number
-- [ ] Not number
+- [x] Number
+- [x] Not number
 - [ ] Alphanumeric
 - [ ] Not alphanumeric
 - [ ] Whitespace
@@ -79,6 +79,8 @@
 
 - [x] Re.expression
 - [x] Re.any
+- [x] Re.number
+- [x] Re.notNumber
 
 ## Documentation
 
