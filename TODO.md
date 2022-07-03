@@ -21,10 +21,10 @@
 - [x] Whitespace
 - [x] Not whitespace
 - [x] Horizontal tab
-- [ ] Caret return
-- [ ] Linefeed
+- [x] Caret return
+- [x] Linefeed
 - [x] Vertical tab
-- [ ] Form-feed
+- [x] Form-feed
 - [ ] Backspace
 - [ ] Null character
 - [ ] Control character
@@ -87,6 +87,9 @@
 - [x] Re.notWhitespace
 - [x] Re.horizontalTab
 - [x] Re.verticalTab
+- [x] Re.caretReturn
+- [x] Re.newLine
+- [x] Re.formFeed
 
 ## Documentation
 
