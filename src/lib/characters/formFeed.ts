@@ -1,6 +1,6 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class FormFeedChar extends Character {
+export class FormFeedCharNode extends CharNode {
   constructor() {
     super('\\f')
   }
@@ -9,4 +9,4 @@ export class FormFeedChar extends Character {
 /**
  * Matches a form-feed.
  */
-export const formFeed = () => new FormFeedChar()
+export const formFeed = () => new FormFeedCharNode()

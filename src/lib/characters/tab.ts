@@ -1,12 +1,12 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class HorizontalTabChar extends Character {
+export class HorizontalTabCharNode extends CharNode {
   constructor() {
     super('\\t')
   }
 }
 
-export class VerticalTabChar extends Character {
+export class VerticalTabCharNode extends CharNode {
   constructor() {
     super('\\v')
   }
@@ -15,9 +15,9 @@ export class VerticalTabChar extends Character {
 /**
  * Matches a horizontal tab.
  */
-export const horizontalTab = () => new HorizontalTabChar()
+export const horizontalTab = () => new HorizontalTabCharNode()
 
 /**
  * Matches a vertical tab.
  */
-export const verticalTab = () => new VerticalTabChar()
+export const verticalTab = () => new VerticalTabCharNode()

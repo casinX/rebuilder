@@ -1,10 +1,10 @@
-import { Character } from './Character'
+import { CharNode } from './characters/CharNode'
 import { OrNode } from './or'
 import { PatternNode } from './pattern'
 import { Quantifier } from './Quantifier'
 import { compileChildren } from './utils/compileChildren'
 
-type Children = Array<Character | PatternNode | OrNode>
+type Children = Array<CharNode | PatternNode | OrNode>
 
 export class GroupNode extends Quantifier {
   private readonly children: Children

@@ -13,7 +13,7 @@
 
 ### [Character classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes)
 
-- [ ] Any
+- [x] Any
 - [ ] Number
 - [ ] Not number
 - [ ] Alphanumeric
@@ -46,12 +46,12 @@
 
 ### [Quantifiers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Quantifiers)
 
-- [ ] Any
-- [ ] At least one
-- [ ] Maybe
-- [ ] Fixed count
-- [ ] At least count
-- [ ] Count range
+- [x] Any
+- [x] At least one
+- [x] Maybe
+- [x] Fixed count
+- [x] At least count
+- [x] Count range
 
 ### [Unicode property escapes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Unicode_Property_Escapes)
 
@@ -78,6 +78,7 @@
 ### Unit
 
 - [x] Re.expression
+- [x] Re.any
 
 ## Documentation
 

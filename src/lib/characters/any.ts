@@ -1,6 +1,6 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class AnyChar extends Character {
+export class AnyCharNode extends CharNode {
   constructor() {
     super('.')
   }
@@ -16,4 +16,4 @@ export class AnyChar extends Character {
  * ES2018 added the s "dotAll" flag, which allows the dot to also match line terminators.
  * You can use Re.expression(<...>).dotCanMatchNewLine() to enable this behavior.
  */
-export const any = () => new AnyChar()
+export const any = () => new AnyCharNode()

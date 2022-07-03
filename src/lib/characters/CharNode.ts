@@ -1,6 +1,6 @@
-import { Quantifier } from './Quantifier'
+import { Quantifier } from '../Quantifier'
 
-export class Character extends Quantifier {
+export class CharNode extends Quantifier {
   private readonly character: string
 
   constructor(character: string) {

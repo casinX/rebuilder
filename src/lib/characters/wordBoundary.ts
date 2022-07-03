@@ -1,12 +1,12 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class WordBoundaryChar extends Character {
+export class WordBoundaryCharNode extends CharNode {
   constructor() {
     super('\\b')
   }
 }
 
-export class NotWordBoundaryChar extends Character {
+export class NotWordBoundaryCharNode extends CharNode {
   constructor() {
     super('\\B')
   }
@@ -21,9 +21,9 @@ export class NotWordBoundaryChar extends Character {
  * /oon\b/ matches the "oon" in "moon", because "oon" is the end of the string, thus not followed by a word character.
  * /\w\b\w/ will never match anything, because a word character can never be followed by both a non-word and a word character.
  */
-export const wordBoundary = () => new WordBoundaryChar()
+export const wordBoundary = () => new WordBoundaryCharNode()
 
 /**
  * Matches a non-word boundary. This is a position where the previous and next character are of the same type: Either both must be words, or both must be non-words, for example between two letters or between two spaces. The beginning and end of a string are considered non-words. Same as the matched word boundary, the matched non-word boundary is also not included in the match. For example, /\Bon/ matches "on" in "at noon", and /ye\B/ matches "ye" in "possibly yesterday".
  */
-export const notWordBoundary = () => new NotWordBoundaryChar()
+export const notWordBoundary = () => new NotWordBoundaryCharNode()

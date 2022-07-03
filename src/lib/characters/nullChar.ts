@@ -1,12 +1,12 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class NullChar extends Character {
+export class NullCharNode extends CharNode {
   constructor() {
     super('\\0')
   }
 }
 
-/** 
+/**
  * Matches a NUL character. Do not follow this with another digit.
  */
-export const nullChar = () => new NullChar()
+export const nullChar = () => new NullCharNode()

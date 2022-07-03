@@ -1,6 +1,6 @@
 import * as Re from '../../lib'
 
-describe('Expression', () => {
+describe('Re.expression', () => {
   it('Creates empty RegExp', () => {
     const regExp = Re.expression().build()
     expect(regExp.toString()).toBe('/(?:)/')

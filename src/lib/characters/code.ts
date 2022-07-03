@@ -1,8 +1,8 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
 type Code = string
 
-export class CodeChar extends Character {
+export class CodeCharNode extends CharNode {
   constructor(hh: Code) {
     super(`\\x${hh}`)
   }
@@ -11,4 +11,4 @@ export class CodeChar extends Character {
 /**
  * Matches the character with the code hh (two hexadecimal digits).
  */
-export const code = (hh: Code) => new CodeChar(hh)
+export const code = (hh: Code) => new CodeCharNode(hh)

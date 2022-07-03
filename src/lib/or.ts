@@ -1,8 +1,8 @@
-import { Character } from './Character'
+import { CharNode } from './characters/CharNode'
 import { GroupNode } from './group'
 import { PatternNode } from './pattern'
 
-type Children = Array<Character | PatternNode | GroupNode>
+type Children = Array<CharNode | PatternNode | GroupNode>
 
 export class OrNode {
   private readonly children: Children

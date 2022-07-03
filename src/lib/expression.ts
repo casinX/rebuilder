@@ -1,9 +1,9 @@
-import { Character } from './Character'
+import { CharNode } from './characters/CharNode'
 import { GroupNode } from './group'
 import { PatternNode } from './pattern'
 import { compileChildren } from './utils/compileChildren'
 
-type Children = Array<Character | PatternNode | GroupNode>
+type Children = Array<CharNode | PatternNode | GroupNode>
 
 class RegularExpressionBuilder {
   private shouldGenerateIndices = false

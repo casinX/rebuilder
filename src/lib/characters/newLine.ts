@@ -1,6 +1,6 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class NewLineChar extends Character {
+export class NewLineCharNode extends CharNode {
   constructor() {
     super('\\n')
   }
@@ -9,4 +9,4 @@ export class NewLineChar extends Character {
 /**
  * Matches a linefeed.
  */
-export const newLine = () => new NewLineChar()
+export const newLine = () => new NewLineCharNode()

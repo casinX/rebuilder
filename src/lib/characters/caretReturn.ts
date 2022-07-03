@@ -1,12 +1,12 @@
-import { Character } from '../Character'
+import { CharNode } from './CharNode'
 
-export class CaretReturnChar extends Character {
+export class CaretReturnCharNode extends CharNode {
   constructor() {
     super('\\r')
   }
 }
 
-/** 
+/**
  * Matches a carriage return.
  */
-export const caretReturn = () => new CaretReturnChar()
+export const caretReturn = () => new CaretReturnCharNode()
